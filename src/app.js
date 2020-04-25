@@ -23,7 +23,7 @@ app.use("/api/notes", notesRouter);
 //app.use("/api/comments", commentsRouter);
 
 //app.get("/api/folders", foldersRouter);
-app.get("/api/folders/:folder_id", foldersRouter);
+//app.get("/api/folders/:folder_id", foldersRouter);
 app.post("/api/folders", foldersRouter);
 
 app.get("/api/notes", notesRouter);
