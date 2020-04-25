@@ -18,7 +18,7 @@ app.use(
 app.use(cors());
 app.use(helmet());
 
-app.use(foldersRouter);
+app.use("/api/folders", foldersRouter);
 app.use("/api/notes", notesRouter);
 //app.use("/api/comments", commentsRouter);
 
