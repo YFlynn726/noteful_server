@@ -29,7 +29,6 @@ app.post("/api/folders", foldersRouter);
 app.get("/api/notes", notesRouter);
 app.get("/api/notes/:note_id", notesRouter);
 app.post("/api/notes", notesRouter);
-app.delete("/api/notes/:note_id", notesRouter);
 
 app.get("/", (req, res) => {
   res.send("Hello, world!");
